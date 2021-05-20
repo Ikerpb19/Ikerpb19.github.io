@@ -1,0 +1,122 @@
+/*Contenidors*/
+
+#cont{
+    border-radius: 12px;
+    min-width: 500px; 
+    max-width: 1280px; 
+    background-color:#E8F1F2;
+    border: 2px solid #004385;
+    color:#004385;
+    padding: 15px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    }
+
+#secont{
+    border-radius: 12px;
+    min-width: 320px; 
+    max-width: 1280px; 
+    background-color:#ffffff;
+    border: 2px solid #004385;
+    color:#004385;
+    padding: 100px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    margin-top:5%;
+    }
+
+.cont-flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.item-container{
+    display:flex; 
+    justify-content:space-around;
+}
+.item{
+    color: #fff;
+	padding: 15px;
+	margin: 5px;	
+	background:#004385;
+	border-radius: 3px;
+    font-family: 'Montserrat', bold;
+}
+
+.item-2{
+    color: #fff;
+	padding: 15px;
+	margin: 5px;	
+	background: #004385;
+	border-radius: 3px;
+}
+
+body {
+ background-color: #ffffff;
+ }
+
+.heading{
+  font-family: 'Montserrat', bold;
+}
+
+Body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Title{
+  font-family: 'Montserrat', bold;
+  text-align:;
+}
+
+.logo{
+    margin: auto;
+    display: block;
+   width: 100%;
+   height: 132px;
+    text-align: center;
+
+}
+
+.Sprite_Box{
+      display: block;
+    flex-wrap: wrap;
+}
+
+.Sprite{
+    Height: 180%;
+    transition: all 1s ease;
+
+}
+    
+.Sprite:hover {
+ transform: scale(1.8);
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+ 
+}
+
+.Desc
+{
+    flex-wrap:wrap;
+}
+
+.Carnet
+{
+    width: 30%;
+    height:80%;
+    
+}
+
+.refs{
+margin: auto;
+    display: block;
+    text-align: center;
+}
